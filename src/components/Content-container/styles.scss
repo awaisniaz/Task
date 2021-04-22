@@ -1,0 +1,32 @@
+.content-main-container{
+    width: 65%;
+    border: 1px dotted black;
+    border-radius: 10px;
+    height: 220px;
+    margin:10px 0;
+    padding: 15px 30px;
+    .title-header{
+        display: flex;
+       // justify-content: center;
+        align-items: center;
+        column-gap: 5px;
+        .sperator{
+            width: 40%;
+            border-bottom: 1px  dashed #ddd;
+            height: 2px;
+            margin: 0 5px;
+        }
+        .progress-bar{
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+          
+            border: 8px solid #ddd;
+            border-left: 8px solid yellow;
+        }
+    }
+    .content{
+        padding: 10px;
+        text-align: justify;
+    }
+}

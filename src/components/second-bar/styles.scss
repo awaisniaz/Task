@@ -1,0 +1,54 @@
+.second-bar-container{
+    width: 100%;
+    background-color: lawngreen;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .option-container-header{
+        width: 80%;
+        height: inherit;
+        display: flex;
+        padding: 10px;
+        .text1{
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            span{
+                color: white;
+            }
+        }
+        .icon{
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 40px;
+            color: white;
+        }
+        .text2{
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        span{
+            color: white;
+        }
+        }
+        .personal-consultaion{
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .ant-btn{
+                width: 60%;
+                height: 40px;
+                border: 1px dashed white;
+                background: #505050;
+                color: white;
+            }
+        }
+    }
+}

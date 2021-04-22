@@ -1,0 +1,65 @@
+.top-bar-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    height: 60px;
+    align-items: center;
+
+    .logo{
+        flex: 1;
+        height: inherit;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        h1,h6{
+            color: #7abc33;
+            font-weight: bold;
+        }
+        h6{
+            margin-top: 36px;
+            margin-left: 10px;
+            
+        }
+    }
+    .contact{
+        height: inherit;
+        display: flex;
+        flex: 4;
+        .email{
+            flex: 2;
+            color: #7abc33;
+            font-size: 15px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            column-gap: 10px;
+        }
+        // .email{
+        //     flex: 4;
+        // }
+        .phone-no{
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #7abc33;
+            column-gap: 10px;
+            .number{
+                display: flex;
+                flex-direction: column;
+            }
+        }
+        .lang{
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            column-gap: 5px;
+            span{
+
+            }
+        }
+    }
+}
